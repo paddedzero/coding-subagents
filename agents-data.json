@@ -1,0 +1,657 @@
+{
+  "meta": [
+    {
+      "key": "meta-agent-organizer.agent",
+      "description": "Expert agent organizer specializing in multi-agent orchestration, team assembly, and workflow optimization. Masters task decomposition, agent selection, and coordination strategies with focus on achieving optimal team performance and resource utilization.",
+      "name": "agent-organizer"
+    },
+    {
+      "key": "meta-context-manager.agent",
+      "description": "Expert context manager specializing in information storage, retrieval, and synchronization across multi-agent systems. Masters state management, version control, and data lifecycle with focus on ensuring consistency, accessibility, and performance at scale.",
+      "name": "context-manager"
+    },
+    {
+      "key": "meta-error-coordinator.agent",
+      "description": "Expert error coordinator specializing in distributed error handling, failure recovery, and system resilience. Masters error correlation, cascade prevention, and automated recovery strategies across multi-agent systems with focus on minimizing impact and learning from failures.",
+      "name": "error-coordinator"
+    },
+    {
+      "key": "meta-it-ops-orchestrator.agent",
+      "description": ">",
+      "name": "it-ops-orchestrator"
+    },
+    {
+      "key": "meta-knowledge-synthesizer.agent",
+      "description": "Expert knowledge synthesizer specializing in extracting insights from multi-agent interactions, identifying patterns, and building collective intelligence. Masters cross-agent learning, best practice extraction, and continuous system improvement through knowledge management.",
+      "name": "knowledge-synthesizer"
+    },
+    {
+      "key": "meta-multi-agent-coordinator.agent",
+      "description": "Expert multi-agent coordinator specializing in complex workflow orchestration, inter-agent communication, and distributed system coordination. Masters parallel execution, dependency management, and fault tolerance with focus on achieving seamless collaboration at scale.",
+      "name": "multi-agent-coordinator"
+    },
+    {
+      "key": "meta-performance-monitor.agent",
+      "description": "Expert performance monitor specializing in system-wide metrics collection, analysis, and optimization. Masters real-time monitoring, anomaly detection, and performance insights across distributed agent systems with focus on observability and continuous improvement.",
+      "name": "performance-monitor"
+    },
+    {
+      "key": "meta-task-distributor.agent",
+      "description": "Expert task distributor specializing in intelligent work allocation, load balancing, and queue management. Masters priority scheduling, capacity tracking, and fair distribution with focus on maximizing throughput while maintaining quality and meeting deadlines.",
+      "name": "task-distributor"
+    },
+    {
+      "key": "meta-workflow-orchestrator.agent",
+      "description": "Expert workflow orchestrator specializing in complex process design, state machine implementation, and business process automation. Masters workflow patterns, error compensation, and transaction management with focus on building reliable, flexible, and observable workflow systems.",
+      "name": "workflow-orchestrator"
+    }
+  ],
+  "quality": [
+    {
+      "key": "quality-accessibility-tester.agent",
+      "description": "Expert accessibility tester specializing in WCAG compliance, inclusive design, and universal access. Masters screen reader compatibility, keyboard navigation, and assistive technology integration with focus on creating barrier-free digital experiences.",
+      "name": "accessibility-tester"
+    },
+    {
+      "key": "quality-ad-security-reviewer.agent",
+      "description": ">",
+      "name": "ad-security-reviewer"
+    },
+    {
+      "key": "quality-architect-reviewer.agent",
+      "description": "Expert architecture reviewer specializing in system design validation, architectural patterns, and technical decision assessment. Masters scalability analysis, technology stack evaluation, and evolutionary architecture with focus on maintainability and long-term viability.",
+      "name": "architect-reviewer"
+    },
+    {
+      "key": "quality-chaos-engineer.agent",
+      "description": "Expert chaos engineer specializing in controlled failure injection, resilience testing, and building antifragile systems. Masters chaos experiments, game day planning, and continuous resilience improvement with focus on learning from failure.",
+      "name": "chaos-engineer"
+    },
+    {
+      "key": "quality-code-reviewer.agent",
+      "description": "Expert code reviewer specializing in code quality, security vulnerabilities, and best practices across multiple languages. Masters static analysis, design patterns, and performance optimization with focus on maintainability and technical debt reduction.",
+      "name": "code-reviewer"
+    },
+    {
+      "key": "quality-compliance-auditor.agent",
+      "description": "Expert compliance auditor specializing in regulatory frameworks, data privacy laws, and security standards. Masters GDPR, HIPAA, PCI DSS, SOC 2, and ISO certifications with focus on automated compliance validation and continuous monitoring.",
+      "name": "compliance-auditor"
+    },
+    {
+      "key": "quality-debugger.agent",
+      "description": "Expert debugger specializing in complex issue diagnosis, root cause analysis, and systematic problem-solving. Masters debugging tools, techniques, and methodologies across multiple languages and environments with focus on efficient issue resolution.",
+      "name": "debugger"
+    },
+    {
+      "key": "quality-error-detective.agent",
+      "description": "Expert error detective specializing in complex error pattern analysis, correlation, and root cause discovery. Masters distributed system debugging, error tracking, and anomaly detection with focus on finding hidden connections and preventing error cascades.",
+      "name": "error-detective"
+    },
+    {
+      "key": "quality-penetration-tester.agent",
+      "description": "Expert penetration tester specializing in ethical hacking, vulnerability assessment, and security testing. Masters offensive security techniques, exploit development, and comprehensive security assessments with focus on identifying and validating security weaknesses.",
+      "name": "penetration-tester"
+    },
+    {
+      "key": "quality-performance-engineer.agent",
+      "description": "Expert performance engineer specializing in system optimization, bottleneck identification, and scalability engineering. Masters performance testing, profiling, and tuning across applications, databases, and infrastructure with focus on achieving optimal response times and resource efficiency.",
+      "name": "performance-engineer"
+    },
+    {
+      "key": "quality-powershell-security-hardening.agent",
+      "description": ">",
+      "name": "powershell-security-hardening"
+    },
+    {
+      "key": "quality-qa-expert.agent",
+      "description": "Expert QA engineer specializing in comprehensive quality assurance, test strategy, and quality metrics. Masters manual and automated testing, test planning, and quality processes with focus on delivering high-quality software through systematic testing.",
+      "name": "qa-expert"
+    },
+    {
+      "key": "quality-security-auditor.agent",
+      "description": "Expert security auditor specializing in comprehensive security assessments, compliance validation, and risk management. Masters security frameworks, audit methodologies, and compliance standards with focus on identifying vulnerabilities and ensuring regulatory adherence.",
+      "name": "security-auditor"
+    },
+    {
+      "key": "quality-test-automator.agent",
+      "description": "Expert test automation engineer specializing in building robust test frameworks, CI/CD integration, and comprehensive test coverage. Masters multiple automation tools and frameworks with focus on maintainable, scalable, and efficient automated testing solutions.",
+      "name": "test-automator"
+    }
+  ],
+  "research": [
+    {
+      "key": "research-competitive-analyst.agent",
+      "description": "Expert competitive analyst specializing in competitor intelligence, strategic analysis, and market positioning. Masters competitive benchmarking, SWOT analysis, and strategic recommendations with focus on creating sustainable competitive advantages.",
+      "name": "competitive-analyst"
+    },
+    {
+      "key": "research-data-researcher.agent",
+      "description": "Expert data researcher specializing in discovering, collecting, and analyzing diverse data sources. Masters data mining, statistical analysis, and pattern recognition with focus on extracting meaningful insights from complex datasets to support evidence-based decisions.",
+      "name": "data-researcher"
+    },
+    {
+      "key": "research-market-researcher.agent",
+      "description": "Expert market researcher specializing in market analysis, consumer insights, and competitive intelligence. Masters market sizing, segmentation, and trend analysis with focus on identifying opportunities and informing strategic business decisions.",
+      "name": "market-researcher"
+    },
+    {
+      "key": "research-research-analyst.agent",
+      "description": "Expert research analyst specializing in comprehensive information gathering, synthesis, and insight generation. Masters research methodologies, data analysis, and report creation with focus on delivering actionable intelligence that drives informed decision-making.",
+      "name": "research-analyst"
+    },
+    {
+      "key": "research-search-specialist.agent",
+      "description": "Expert search specialist mastering advanced information retrieval, query optimization, and knowledge discovery. Specializes in finding needle-in-haystack information across diverse sources with focus on precision, comprehensiveness, and efficiency.",
+      "name": "search-specialist"
+    },
+    {
+      "key": "research-trend-analyst.agent",
+      "description": "Expert trend analyst specializing in identifying emerging patterns, forecasting future developments, and strategic foresight. Masters trend detection, impact analysis, and scenario planning with focus on helping organizations anticipate and adapt to change.",
+      "name": "trend-analyst"
+    }
+  ],
+  "core": [
+    {
+      "key": "core-api-designer.agent",
+      "description": "API architecture expert designing scalable, developer-friendly interfaces. Creates REST and GraphQL APIs with comprehensive documentation, focusing on consistency, performance, and developer experience.",
+      "name": "api-designer"
+    },
+    {
+      "key": "core-backend-developer.agent",
+      "description": "Senior backend engineer specializing in scalable API development and microservices architecture. Builds robust server-side solutions with focus on performance, security, and maintainability.",
+      "name": "backend-developer"
+    },
+    {
+      "key": "core-electron-pro.agent",
+      "description": "Desktop application specialist building secure cross-platform solutions. Develops Electron apps with native OS integration, focusing on security, performance, and seamless user experience.",
+      "name": "electron-pro"
+    },
+    {
+      "key": "core-frontend-developer.agent",
+      "description": "Expert UI engineer focused on crafting robust, scalable frontend solutions. Builds high-quality React components prioritizing maintainability, user experience, and web standards compliance.",
+      "name": "frontend-developer"
+    },
+    {
+      "key": "core-fullstack-developer.agent",
+      "description": "End-to-end feature owner with expertise across the entire stack. Delivers complete solutions from database to UI with focus on seamless integration and optimal user experience.",
+      "name": "fullstack-developer"
+    },
+    {
+      "key": "core-graphql-architect.agent",
+      "description": "GraphQL schema architect designing efficient, scalable API graphs. Masters federation, subscriptions, and query optimization while ensuring type safety and developer experience.",
+      "name": "graphql-architect"
+    },
+    {
+      "key": "core-microservices-architect.agent",
+      "description": "Distributed systems architect designing scalable microservice ecosystems. Masters service boundaries, communication patterns, and operational excellence in cloud-native environments.",
+      "name": "microservices-architect"
+    },
+    {
+      "key": "core-mobile-developer.agent",
+      "description": "Cross-platform mobile specialist building performant native experiences. Creates optimized mobile applications with React Native and Flutter, focusing on platform-specific excellence and battery efficiency.",
+      "name": "mobile-developer"
+    },
+    {
+      "key": "core-ui-designer.agent",
+      "description": "Expert visual designer specializing in creating intuitive, beautiful, and accessible user interfaces. Masters design systems, interaction patterns, and visual hierarchy to craft exceptional user experiences that balance aesthetics with functionality.",
+      "name": "ui-designer"
+    },
+    {
+      "key": "core-websocket-engineer.agent",
+      "description": "Real-time communication specialist implementing scalable WebSocket architectures. Masters bidirectional protocols, event-driven systems, and low-latency messaging for interactive applications.",
+      "name": "websocket-engineer"
+    }
+  ],
+  "lang": [
+    {
+      "key": "lang-angular-architect.agent",
+      "description": "Expert Angular architect mastering Angular 15+ with enterprise patterns. Specializes in RxJS, NgRx state management, micro-frontend architecture, and performance optimization with focus on building scalable enterprise applications.",
+      "name": "angular-architect"
+    },
+    {
+      "key": "lang-cpp-pro.agent",
+      "description": "Expert C++ developer specializing in modern C++20/23, systems programming, and high-performance computing. Masters template metaprogramming, zero-overhead abstractions, and low-level optimization with emphasis on safety and efficiency.",
+      "name": "cpp-pro"
+    },
+    {
+      "key": "lang-csharp-developer.agent",
+      "description": "Expert C# developer specializing in modern .NET development, ASP.NET Core, and cloud-native applications. Masters C# 12 features, Blazor, and cross-platform development with emphasis on performance and clean architecture.",
+      "name": "csharp-developer"
+    },
+    {
+      "key": "lang-django-developer.agent",
+      "description": "Expert Django developer mastering Django 4+ with modern Python practices. Specializes in scalable web applications, REST API development, async views, and enterprise patterns with focus on rapid development and security best practices.",
+      "name": "django-developer"
+    },
+    {
+      "key": "lang-dotnet-core-expert.agent",
+      "description": "Expert .NET Core specialist mastering .NET 10 with modern C# features. Specializes in cross-platform development, minimal APIs, cloud-native applications, and microservices with focus on building high-performance, scalable solutions.",
+      "name": "dotnet-core-expert"
+    },
+    {
+      "key": "lang-dotnet-framework-4.8-expert.agent",
+      "description": "Expert .NET Framework 4.8 specialist mastering legacy enterprise applications. Specializes in Windows-based development, Web Forms, WCF services, and Windows services with focus on maintaining and modernizing existing enterprise solutions.",
+      "name": "dotnet-framework-4.8-expert"
+    },
+    {
+      "key": "lang-elixir-expert.agent",
+      "description": "Expert Elixir developer specializing in concurrent, fault-tolerant systems using OTP patterns. Masters Phoenix, LiveView, and BEAM VM optimization for building highly available distributed applications.",
+      "name": "elixir-expert"
+    },
+    {
+      "key": "lang-flutter-expert.agent",
+      "description": "Expert Flutter specialist mastering Flutter 3+ with modern architecture patterns. Specializes in cross-platform development, custom animations, native integrations, and performance optimization with focus on creating beautiful, native-performance applications.",
+      "name": "flutter-expert"
+    },
+    {
+      "key": "lang-golang-pro.agent",
+      "description": "Expert Go developer specializing in high-performance systems, concurrent programming, and cloud-native microservices. Masters idiomatic Go patterns with emphasis on simplicity, efficiency, and reliability.",
+      "name": "golang-pro"
+    },
+    {
+      "key": "lang-java-architect.agent",
+      "description": "Senior Java architect specializing in enterprise-grade applications, Spring ecosystem, and cloud-native development. Masters modern Java features, reactive programming, and microservices patterns with focus on scalability and maintainability.",
+      "name": "java-architect"
+    },
+    {
+      "key": "lang-javascript-pro.agent",
+      "description": "Expert JavaScript developer specializing in modern ES2023+ features, asynchronous programming, and full-stack development. Masters both browser APIs and Node.js ecosystem with emphasis on performance and clean code patterns.",
+      "name": "javascript-pro"
+    },
+    {
+      "key": "lang-kotlin-specialist.agent",
+      "description": "Expert Kotlin developer specializing in coroutines, multiplatform development, and Android applications. Masters functional programming patterns, DSL design, and modern Kotlin features with emphasis on conciseness and safety.",
+      "name": "kotlin-specialist"
+    },
+    {
+      "key": "lang-laravel-specialist.agent",
+      "description": "Expert Laravel specialist mastering Laravel 10+ with modern PHP practices. Specializes in elegant syntax, Eloquent ORM, queue systems, and enterprise features with focus on building scalable web applications and APIs.",
+      "name": "laravel-specialist"
+    },
+    {
+      "key": "lang-nextjs-developer.agent",
+      "description": "Expert Next.js developer mastering Next.js 14+ with App Router and full-stack features. Specializes in server components, server actions, performance optimization, and production deployment with focus on building fast, SEO-friendly applications.",
+      "name": "nextjs-developer"
+    },
+    {
+      "key": "lang-php-pro.agent",
+      "description": "Expert PHP developer specializing in modern PHP 8.3+ with strong typing, async programming, and enterprise frameworks. Masters Laravel, Symfony, and modern PHP patterns with emphasis on performance and clean architecture.",
+      "name": "php-pro"
+    },
+    {
+      "key": "lang-powershell-5.1-expert.agent",
+      "description": ">",
+      "name": "powershell-5.1-expert"
+    },
+    {
+      "key": "lang-powershell-7-expert.agent",
+      "description": ">",
+      "name": "powershell-7-expert"
+    },
+    {
+      "key": "lang-python-pro.agent",
+      "description": "Expert Python developer specializing in modern Python 3.11+ development with deep expertise in type safety, async programming, data science, and web frameworks. Masters Pythonic patterns while ensuring production-ready code quality.",
+      "name": "python-pro"
+    },
+    {
+      "key": "lang-rails-expert.agent",
+      "description": "Expert Rails specialist mastering Rails 8.1 with modern conventions. Specializes in convention over configuration, Hotwire/Turbo, Action Cable, and rapid application development with focus on building elegant, maintainable web applications.",
+      "name": "rails-expert"
+    },
+    {
+      "key": "lang-react-specialist.agent",
+      "description": "Expert React specialist mastering React 18+ with modern patterns and ecosystem. Specializes in performance optimization, advanced hooks, server components, and production-ready architectures with focus on creating scalable, maintainable applications.",
+      "name": "react-specialist"
+    },
+    {
+      "key": "lang-rust-engineer.agent",
+      "description": "Expert Rust developer specializing in systems programming, memory safety, and zero-cost abstractions. Masters ownership patterns, async programming, and performance optimization for mission-critical applications.",
+      "name": "rust-engineer"
+    },
+    {
+      "key": "lang-spring-boot-engineer.agent",
+      "description": "Expert Spring Boot engineer mastering Spring Boot 3+ with cloud-native patterns. Specializes in microservices, reactive programming, Spring Cloud integration, and enterprise solutions with focus on building scalable, production-ready applications.",
+      "name": "spring-boot-engineer"
+    },
+    {
+      "key": "lang-sql-pro.agent",
+      "description": "Expert SQL developer specializing in complex query optimization, database design, and performance tuning across PostgreSQL, MySQL, SQL Server, and Oracle. Masters advanced SQL features, indexing strategies, and data warehousing patterns.",
+      "name": "sql-pro"
+    },
+    {
+      "key": "lang-swift-expert.agent",
+      "description": "Expert Swift developer specializing in Swift 5.9+ with async/await, SwiftUI, and protocol-oriented programming. Masters Apple platforms development, server-side Swift, and modern concurrency with emphasis on safety and expressiveness.",
+      "name": "swift-expert"
+    },
+    {
+      "key": "lang-typescript-pro.agent",
+      "description": "Expert TypeScript developer specializing in advanced type system usage, full-stack development, and build optimization. Masters type-safe patterns for both frontend and backend with emphasis on developer experience and runtime safety.",
+      "name": "typescript-pro"
+    },
+    {
+      "key": "lang-vue-expert.agent",
+      "description": "Expert Vue specialist mastering Vue 3 with Composition API and ecosystem. Specializes in reactivity system, performance optimization, Nuxt 3 development, and enterprise patterns with focus on building elegant, reactive applications.",
+      "name": "vue-expert"
+    }
+  ],
+  "devex": [
+    {
+      "key": "devex-build-engineer.agent",
+      "description": "Expert build engineer specializing in build system optimization, compilation strategies, and developer productivity. Masters modern build tools, caching mechanisms, and creating fast, reliable build pipelines that scale with team growth.",
+      "name": "build-engineer"
+    },
+    {
+      "key": "devex-cli-developer.agent",
+      "description": "Expert CLI developer specializing in command-line interface design, developer tools, and terminal applications. Masters user experience, cross-platform compatibility, and building efficient CLI tools that developers love to use.",
+      "name": "cli-developer"
+    },
+    {
+      "key": "devex-dependency-manager.agent",
+      "description": "Expert dependency manager specializing in package management, security auditing, and version conflict resolution across multiple ecosystems. Masters dependency optimization, supply chain security, and automated updates with focus on maintaining stable, secure, and efficient dependency trees.",
+      "name": "dependency-manager"
+    },
+    {
+      "key": "devex-documentation-engineer.agent",
+      "description": "Expert documentation engineer specializing in technical documentation systems, API documentation, and developer-friendly content. Masters documentation-as-code, automated generation, and creating maintainable documentation that developers actually use.",
+      "name": "documentation-engineer"
+    },
+    {
+      "key": "devex-dx-optimizer.agent",
+      "description": "Expert developer experience optimizer specializing in build performance, tooling efficiency, and workflow automation. Masters development environment optimization with focus on reducing friction, accelerating feedback loops, and maximizing developer productivity and satisfaction.",
+      "name": "dx-optimizer"
+    },
+    {
+      "key": "devex-git-workflow-manager.agent",
+      "description": "Expert Git workflow manager specializing in branching strategies, automation, and team collaboration. Masters Git workflows, merge conflict resolution, and repository management with focus on enabling efficient, clear, and scalable version control practices.",
+      "name": "git-workflow-manager"
+    },
+    {
+      "key": "devex-legacy-modernizer.agent",
+      "description": "Expert legacy system modernizer specializing in incremental migration strategies and risk-free modernization. Masters refactoring patterns, technology updates, and business continuity with focus on transforming legacy systems into modern, maintainable architectures without disrupting operations.",
+      "name": "legacy-modernizer"
+    },
+    {
+      "key": "devex-mcp-developer.agent",
+      "description": "Expert MCP developer specializing in Model Context Protocol server and client development. Masters protocol specification, SDK implementation, and building production-ready integrations between AI systems and external tools/data sources.",
+      "name": "mcp-developer"
+    },
+    {
+      "key": "devex-powershell-module-architect.agent",
+      "description": ">",
+      "name": "powershell-module-architect"
+    },
+    {
+      "key": "devex-powershell-ui-architect.agent",
+      "description": ">",
+      "name": "powershell-ui-architect"
+    },
+    {
+      "key": "devex-refactoring-specialist.agent",
+      "description": "Expert refactoring specialist mastering safe code transformation techniques and design pattern application. Specializes in improving code structure, reducing complexity, and enhancing maintainability while preserving behavior with focus on systematic, test-driven refactoring.",
+      "name": "refactoring-specialist"
+    },
+    {
+      "key": "devex-slack-expert.agent",
+      "description": "Expert Slack platform specialist for Slack app development, @slack/bolt implementation, Block Kit UI, event handling, OAuth flows, and Slack API integrations. Use when building Slack bots, reviewing Slack code, designing slash commands, or implementing interactive components.",
+      "name": "slack-expert"
+    },
+    {
+      "key": "devex-tooling-engineer.agent",
+      "description": "Expert tooling engineer specializing in developer tool creation, CLI development, and productivity enhancement. Masters tool architecture, plugin systems, and user experience design with focus on building efficient, extensible tools that significantly improve developer workflows.",
+      "name": "tooling-engineer"
+    }
+  ],
+  "domain": [
+    {
+      "key": "domain-api-documenter.agent",
+      "description": "Expert API documenter specializing in creating comprehensive, developer-friendly API documentation. Masters OpenAPI/Swagger specifications, interactive documentation portals, and documentation automation with focus on clarity, completeness, and exceptional developer experience.",
+      "name": "api-documenter"
+    },
+    {
+      "key": "domain-blockchain-developer.agent",
+      "description": "Expert blockchain developer specializing in smart contract development, DApp architecture, and DeFi protocols. Masters Solidity, Web3 integration, and blockchain security with focus on building secure, gas-efficient, and innovative decentralized applications.",
+      "name": "blockchain-developer"
+    },
+    {
+      "key": "domain-embedded-systems.agent",
+      "description": "Expert embedded systems engineer specializing in microcontroller programming, RTOS development, and hardware optimization. Masters low-level programming, real-time constraints, and resource-limited environments with focus on reliability, efficiency, and hardware-software integration.",
+      "name": "embedded-systems"
+    },
+    {
+      "key": "domain-fintech-engineer.agent",
+      "description": "Expert fintech engineer specializing in financial systems, regulatory compliance, and secure transaction processing. Masters banking integrations, payment systems, and building scalable financial technology that meets stringent regulatory requirements.",
+      "name": "fintech-engineer"
+    },
+    {
+      "key": "domain-game-developer.agent",
+      "description": "Expert game developer specializing in game engine programming, graphics optimization, and multiplayer systems. Masters game design patterns, performance optimization, and cross-platform development with focus on creating engaging, performant gaming experiences.",
+      "name": "game-developer"
+    },
+    {
+      "key": "domain-iot-engineer.agent",
+      "description": "Expert IoT engineer specializing in connected device architectures, edge computing, and IoT platform development. Masters IoT protocols, device management, and data pipelines with focus on building scalable, secure, and reliable IoT solutions.",
+      "name": "iot-engineer"
+    },
+    {
+      "key": "domain-m365-admin.agent",
+      "description": ">",
+      "name": "m365-admin"
+    },
+    {
+      "key": "domain-mobile-app-developer.agent",
+      "description": "Expert mobile app developer specializing in native and cross-platform development for iOS and Android. Masters performance optimization, platform guidelines, and creating exceptional mobile experiences that users love.",
+      "name": "mobile-app-developer"
+    },
+    {
+      "key": "domain-payment-integration.agent",
+      "description": "Expert payment integration specialist mastering payment gateway integration, PCI compliance, and financial transaction processing. Specializes in secure payment flows, multi-currency support, and fraud prevention with focus on reliability, compliance, and seamless user experience.",
+      "name": "payment-integration"
+    },
+    {
+      "key": "domain-quant-analyst.agent",
+      "description": "Expert quantitative analyst specializing in financial modeling, algorithmic trading, and risk analytics. Masters statistical methods, derivatives pricing, and high-frequency trading with focus on mathematical rigor, performance optimization, and profitable strategy development.",
+      "name": "quant-analyst"
+    },
+    {
+      "key": "domain-risk-manager.agent",
+      "description": "Expert risk manager specializing in comprehensive risk assessment, mitigation strategies, and compliance frameworks. Masters risk modeling, stress testing, and regulatory compliance with focus on protecting organizations from financial, operational, and strategic risks.",
+      "name": "risk-manager"
+    },
+    {
+      "key": "domain-seo-specialist.agent",
+      "description": "Expert SEO strategist specializing in technical SEO, content optimization, and search engine rankings. Masters both on-page and off-page optimization, structured data implementation, and performance metrics to drive organic traffic and improve search visibility.",
+      "name": "seo-specialist"
+    }
+  ],
+  "data": [
+    {
+      "key": "data-ai-engineer.agent",
+      "description": "Expert AI engineer specializing in AI system design, model implementation, and production deployment. Masters multiple AI frameworks and tools with focus on building scalable, efficient, and ethical AI solutions from research to production.",
+      "name": "ai-engineer"
+    },
+    {
+      "key": "data-data-analyst.agent",
+      "description": "Expert data analyst specializing in business intelligence, data visualization, and statistical analysis. Masters SQL, Python, and BI tools to transform raw data into actionable insights with focus on stakeholder communication and business impact.",
+      "name": "data-analyst"
+    },
+    {
+      "key": "data-data-engineer.agent",
+      "description": "Expert data engineer specializing in building scalable data pipelines, ETL/ELT processes, and data infrastructure. Masters big data technologies and cloud platforms with focus on reliable, efficient, and cost-optimized data platforms.",
+      "name": "data-engineer"
+    },
+    {
+      "key": "data-data-scientist.agent",
+      "description": "Expert data scientist specializing in statistical analysis, machine learning, and business insights. Masters exploratory data analysis, predictive modeling, and data storytelling with focus on delivering actionable insights that drive business value.",
+      "name": "data-scientist"
+    },
+    {
+      "key": "data-database-optimizer.agent",
+      "description": "Expert database optimizer specializing in query optimization, performance tuning, and scalability across multiple database systems. Masters execution plan analysis, index strategies, and system-level optimizations with focus on achieving peak database performance.",
+      "name": "database-optimizer"
+    },
+    {
+      "key": "data-llm-architect.agent",
+      "description": "Expert LLM architect specializing in large language model architecture, deployment, and optimization. Masters LLM system design, fine-tuning strategies, and production serving with focus on building scalable, efficient, and safe LLM applications.",
+      "name": "llm-architect"
+    },
+    {
+      "key": "data-machine-learning-engineer.agent",
+      "description": "Expert ML engineer specializing in production model deployment, serving infrastructure, and scalable ML systems. Masters model optimization, real-time inference, and edge deployment with focus on reliability and performance at scale.",
+      "name": "machine-learning-engineer"
+    },
+    {
+      "key": "data-ml-engineer.agent",
+      "description": "Expert ML engineer specializing in machine learning model lifecycle, production deployment, and ML system optimization. Masters both traditional ML and deep learning with focus on building scalable, reliable ML systems from training to serving.",
+      "name": "ml-engineer"
+    },
+    {
+      "key": "data-mlops-engineer.agent",
+      "description": "Expert MLOps engineer specializing in ML infrastructure, platform engineering, and operational excellence for machine learning systems. Masters CI/CD for ML, model versioning, and scalable ML platforms with focus on reliability and automation.",
+      "name": "mlops-engineer"
+    },
+    {
+      "key": "data-nlp-engineer.agent",
+      "description": "Expert NLP engineer specializing in natural language processing, understanding, and generation. Masters transformer models, text processing pipelines, and production NLP systems with focus on multilingual support and real-time performance.",
+      "name": "nlp-engineer"
+    },
+    {
+      "key": "data-postgres-pro.agent",
+      "description": "Expert PostgreSQL specialist mastering database administration, performance optimization, and high availability. Deep expertise in PostgreSQL internals, advanced features, and enterprise deployment with focus on reliability and peak performance.",
+      "name": "postgres-pro"
+    },
+    {
+      "key": "data-prompt-engineer.agent",
+      "description": "Expert prompt engineer specializing in designing, optimizing, and managing prompts for large language models. Masters prompt architecture, evaluation frameworks, and production prompt systems with focus on reliability, efficiency, and measurable outcomes.",
+      "name": "prompt-engineer"
+    }
+  ],
+  "infra": [
+    {
+      "key": "infra-azure-infra-engineer.agent",
+      "description": ">",
+      "name": "azure-infra-engineer"
+    },
+    {
+      "key": "infra-cloud-architect.agent",
+      "description": "Expert cloud architect specializing in multi-cloud strategies, scalable architectures, and cost-effective solutions. Masters AWS, Azure, and GCP with focus on security, performance, and compliance while designing resilient cloud-native systems.",
+      "name": "cloud-architect"
+    },
+    {
+      "key": "infra-database-administrator.agent",
+      "description": "Expert database administrator specializing in high-availability systems, performance optimization, and disaster recovery. Masters PostgreSQL, MySQL, MongoDB, and Redis with focus on reliability, scalability, and operational excellence.",
+      "name": "database-administrator"
+    },
+    {
+      "key": "infra-deployment-engineer.agent",
+      "description": "Expert deployment engineer specializing in CI/CD pipelines, release automation, and deployment strategies. Masters blue-green, canary, and rolling deployments with focus on zero-downtime releases and rapid rollback capabilities.",
+      "name": "deployment-engineer"
+    },
+    {
+      "key": "infra-devops-engineer.agent",
+      "description": "Expert DevOps engineer bridging development and operations with comprehensive automation, monitoring, and infrastructure management. Masters CI/CD, containerization, and cloud platforms with focus on culture, collaboration, and continuous improvement.",
+      "name": "devops-engineer"
+    },
+    {
+      "key": "infra-devops-incident-responder.agent",
+      "description": "Expert incident responder specializing in rapid detection, diagnosis, and resolution of production issues. Masters observability tools, root cause analysis, and automated remediation with focus on minimizing downtime and preventing recurrence.",
+      "name": "devops-incident-responder"
+    },
+    {
+      "key": "infra-incident-responder.agent",
+      "description": "Expert incident responder specializing in security and operational incident management. Masters evidence collection, forensic analysis, and coordinated response with focus on minimizing impact and preventing future incidents.",
+      "name": "incident-responder"
+    },
+    {
+      "key": "infra-kubernetes-specialist.agent",
+      "description": "Expert Kubernetes specialist mastering container orchestration, cluster management, and cloud-native architectures. Specializes in production-grade deployments, security hardening, and performance optimization with focus on scalability and reliability.",
+      "name": "kubernetes-specialist"
+    },
+    {
+      "key": "infra-network-engineer.agent",
+      "description": "Expert network engineer specializing in cloud and hybrid network architectures, security, and performance optimization. Masters network design, troubleshooting, and automation with focus on reliability, scalability, and zero-trust principles.",
+      "name": "network-engineer"
+    },
+    {
+      "key": "infra-platform-engineer.agent",
+      "description": "Expert platform engineer specializing in internal developer platforms, self-service infrastructure, and developer experience. Masters platform APIs, GitOps workflows, and golden path templates with focus on empowering developers and accelerating delivery.",
+      "name": "platform-engineer"
+    },
+    {
+      "key": "infra-security-engineer.agent",
+      "description": "Expert infrastructure security engineer specializing in DevSecOps, cloud security, and compliance frameworks. Masters security automation, vulnerability management, and zero-trust architecture with emphasis on shift-left security practices.",
+      "name": "security-engineer"
+    },
+    {
+      "key": "infra-sre-engineer.agent",
+      "description": "Expert Site Reliability Engineer balancing feature velocity with system stability through SLOs, automation, and operational excellence. Masters reliability engineering, chaos testing, and toil reduction with focus on building resilient, self-healing systems.",
+      "name": "sre-engineer"
+    },
+    {
+      "key": "infra-terraform-engineer.agent",
+      "description": "Expert Terraform engineer specializing in infrastructure as code, multi-cloud provisioning, and modular architecture. Masters Terraform best practices, state management, and enterprise patterns with focus on reusability, security, and automation.",
+      "name": "terraform-engineer"
+    },
+    {
+      "key": "infra-windows-infra-admin.agent",
+      "description": ">",
+      "name": "windows-infra-admin"
+    }
+  ],
+  "biz": [
+    {
+      "key": "biz-business-analyst.agent",
+      "description": "Expert business analyst specializing in requirements gathering, process improvement, and data-driven decision making. Masters stakeholder management, business process modeling, and solution design with focus on delivering measurable business value.",
+      "name": "business-analyst"
+    },
+    {
+      "key": "biz-content-marketer.agent",
+      "description": "Expert content marketer specializing in content strategy, SEO optimization, and engagement-driven marketing. Masters multi-channel content creation, analytics, and conversion optimization with focus on building brand authority and driving measurable business results.",
+      "name": "content-marketer"
+    },
+    {
+      "key": "biz-customer-success-manager.agent",
+      "description": "Expert customer success manager specializing in customer retention, growth, and advocacy. Masters account health monitoring, strategic relationship building, and driving customer value realization to maximize satisfaction and revenue growth.",
+      "name": "customer-success-manager"
+    },
+    {
+      "key": "biz-legal-advisor.agent",
+      "description": "Expert legal advisor specializing in technology law, compliance, and risk mitigation. Masters contract drafting, intellectual property, data privacy, and regulatory compliance with focus on protecting business interests while enabling innovation and growth.",
+      "name": "legal-advisor"
+    },
+    {
+      "key": "biz-product-manager.agent",
+      "description": "Expert product manager specializing in product strategy, user-centric development, and business outcomes. Masters roadmap planning, feature prioritization, and cross-functional leadership with focus on delivering products that users love and drive business growth.",
+      "name": "product-manager"
+    },
+    {
+      "key": "biz-project-manager.agent",
+      "description": "Expert project manager specializing in project planning, execution, and delivery. Masters resource management, risk mitigation, and stakeholder communication with focus on delivering projects on time, within budget, and exceeding expectations.",
+      "name": "project-manager"
+    },
+    {
+      "key": "biz-sales-engineer.agent",
+      "description": "Expert sales engineer specializing in technical pre-sales, solution architecture, and proof of concepts. Masters technical demonstrations, competitive positioning, and translating complex technology into business value for prospects and customers.",
+      "name": "sales-engineer"
+    },
+    {
+      "key": "biz-scrum-master.agent",
+      "description": "Expert Scrum Master specializing in agile transformation, team facilitation, and continuous improvement. Masters Scrum framework implementation, impediment removal, and fostering high-performing, self-organizing teams that deliver value consistently.",
+      "name": "scrum-master"
+    },
+    {
+      "key": "biz-technical-writer.agent",
+      "description": "Expert technical writer specializing in clear, accurate documentation and content creation. Masters API documentation, user guides, and technical content with focus on making complex information accessible and actionable for diverse audiences.",
+      "name": "technical-writer"
+    },
+    {
+      "key": "biz-ux-researcher.agent",
+      "description": "Expert UX researcher specializing in user insights, usability testing, and data-driven design decisions. Masters qualitative and quantitative research methods to uncover user needs, validate designs, and drive product improvements through actionable insights.",
+      "name": "ux-researcher"
+    },
+    {
+      "key": "biz-wordpress-master.agent",
+      "description": "Elite WordPress architect specializing in full-stack development, performance optimization, and enterprise solutions. Masters custom theme/plugin development, multisite management, security hardening, and scaling WordPress from small sites to enterprise platforms handling millions of visitors.",
+      "name": "wordpress-master"
+    }
+  ]
+}
